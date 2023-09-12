@@ -1,0 +1,111 @@
+:root {
+    /* my document style 1 */
+    --as-font-01: sans-serif;
+    --as-bg-col-00: white;
+    --as-bg-col-01: #eaea59;
+    --as-col-offen: #696565;
+    --as-col-gehalten: lightgreen;
+    --as-col-highlight: #2f0303;
+    --as-col-table: #50b2b2;
+    --as-col-hover-1: #ea220b;
+    --as-col-hover-2: #3f2327;
+    --as-bg-highlight: #55220e;
+    --as-width: 1500px;
+}
+* { /* all elements */
+    box-sizing: border-box;
+    font-style: italic;
+    font-family: "JetBrains Mono";
+    font-size: 20px;
+}
+body {
+    background-color: var(--as-bg-col-01);
+}
+
+table{
+    background-color: var(--as-col-table);
+    margin-bottom: 40px;
+}
+thead {
+    border-bottom: black;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-top: black;
+    border-top-width: 2px;
+    border-top-style: solid;
+    text-align: left;
+}
+
+tbody tr:hover {
+    background-color: var(--as-col-hover-1);
+}
+tbody td:hover {
+    background-color: var(--as-col-hover-2);
+}
+
+tfoot {
+    border-top: black;
+    border-top-width: 2px;
+    border-top-style: solid;
+
+}
+h5 {
+    margin-bottom: 9px;
+}
+.b-dot-line {
+    border-bottom-width: 1px;
+    border-bottom-style: dotted;
+    border-bottom-color: black;
+}
+.as-m-t-b{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.as-button{
+    margin-top: 2px;
+    margin-left: 5px;
+    margin-bottom: 2px;
+}
+
+.as-button-0{
+    margin-top: 2px;
+    margin-left: 0px;
+    margin-bottom: 2px;
+}
+
+.offen {
+    background-color: var(--as-col-offen);
+}
+
+.as-bold {
+    font-weight: bold;
+}
+
+.as-highlight {
+    color: var(--as-col-highlight);
+}
+
+.as-bg-highlight {
+    background-color: var(--as-bg-highlight);
+}
+
+.gehalten {
+    background-color: var(--as-col-gehalten);
+}
+
+.as-unsichtbar {
+    display: none;
+}
+
+.as-sichtbar {
+    display: block;
+}
+
+#ergebnis ol {
+    width: 200px;
+}
+.wer-width{width: 30%}
+.was-width{width: 30%}
+.wann-width{width: 20%}
+.wo-width{width: 40%}

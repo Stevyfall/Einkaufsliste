@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title id="Liste_title">Willkommen beim Einkaufen.de</title>
+    <link rel="stylesheet" type="text/css" href="style/Style.css">
+    <script src="script/einkaufsliste.js"></script>
+<link rel="icon" type="image/x-png" href="pics/stone.png">
+</head>
+<body>
+<header>
+    <h1 id="top">Willkommen beim Einkaufen.de</h1>
+    <hr>
+</header>
+<main>
+    <section class="as-m-t-b">
+        <div>
+            <form id="datas">
+                <label for="user-id">User-ID:</label>
+                <input id="user-id" type="text" required placeholder="user-id">
+            </form>
+        </div>
+        <div id="einkauf" class="as-unsichtbar">
+            <h2>Einkaufslisten</h2>
+            <div id="bottom" class="as-unsichtbar">
+                <form id="aktionen" class="as-m-t-b">
+                    <label for="aktionen">Tools: </label>
+                    <input type="submit" class="as-button"  id="newbutton" value="neu">
+                    <input type="submit" class="as-button" value="sichern">
+                </form>
+            </div>
+            <table class="table_width" id="table">
+                <thead id="tabhead">
+                <tr>
+                <th class="wer-width">Wer</th>
+                <th class="was-width">Was</th>
+                <th class="wo-width">Wo</th>
+                <th class="wann-width">Wann</th>
+                </tr>
+                </thead>
+                <tbody id="tabbody"></tbody>
+                <tfoot>
+                <tr>
+                    <td></td>
+                </tr>
+                </tfoot>
+            </table>
+        </div>
+    </section>
+</main>
+<footer>
+    <hr>
+    <p>Das ist eine Webseite von Steve Jordan Tatchim Guegom</p>
+    <p>Email: <a href="mailto:steve.jordan.tatchim.guegom@mni.thm.de">steve.jordan.tatchim.guegom@mni.thm.de</a> </p>
+</footer>
+</body>
+</html>
